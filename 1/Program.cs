@@ -17,9 +17,6 @@ int from20to90(int[] array){
     return count;
 }
 
-Console.Clear();
-// Console.Write("Введите кол-во элементов массива: ");
-// int n = int.Parse(Console.ReadLine()!);
 int[] array = new int[10];
 inputArray(array);
 Console.WriteLine($"Полученный массив: [{string.Join(", ", array)}]");
